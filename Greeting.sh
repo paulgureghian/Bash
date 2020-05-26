@@ -4,3 +4,5 @@
 # This Bash shell script prints a greeting to the console. #
 
 # Start script. #
+
+# Declare variables. #
