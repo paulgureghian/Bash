@@ -7,3 +7,5 @@
 # Start script. #
 
 # Welcome. #
+echo "Welcome. Beginning build."
+
