@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2086
 
 # Created by Paul A. Gureghian in May 2020. #
 # This Bash shell script prints a greeting to the console. #
