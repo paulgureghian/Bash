@@ -9,5 +9,5 @@
 # Welcome. #
 echo "Welcome. Beginning build."
 
-firstline= $(head -n 1 source/changelog.md)
+firstline=$(head -n 1 source/changelog.md)
 
