@@ -32,11 +32,13 @@ then
   done    
 
 if [ "$filename" == "source/secretinfo.md" ]
+
 then 
   echo "Not copying" $filename
 
 else
   echo "Copying" $filename
+  cp $filename build/.  
 
 fi    
 
