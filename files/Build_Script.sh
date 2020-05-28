@@ -26,10 +26,12 @@ if [ $versioncontinue -eq 1]
 
 then
   echo "OK"
+  for filename in source/*
+  do 
+    echo $filename
+  done    
 
 else 
   echo "Please comeback when you are ready"
 
 fi
-
-
