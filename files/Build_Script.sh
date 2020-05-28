@@ -46,3 +46,10 @@ else
   echo "Please comeback when you are ready"
 
 fi
+
+# List the files. #
+cd build/
+cd ..
+
+echo "Build version $version contains:"
+ls
