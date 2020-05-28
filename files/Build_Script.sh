@@ -19,3 +19,5 @@ version=${splitfirstline[1]}
 echo "You are building version number:" $version
 
 # Get user input. #
+echo 'Do you want to continue? (enter "1" for yes, "0" for no)'
+read versioncontinue
