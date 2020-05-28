@@ -17,3 +17,5 @@ echo $splitfirstline
 
 version=${splitfirstline[1]}
 echo "You are building version number:" $version
+
+# Get user input. #
