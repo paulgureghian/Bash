@@ -31,6 +31,15 @@ then
     echo $filename
   done    
 
+if [ "$filename" == "source/secretinfo.md" ]
+then 
+  echo "Not copying" $filename
+
+else
+  echo "Copying" $filename
+
+fi    
+
 else 
   echo "Please comeback when you are ready"
 
