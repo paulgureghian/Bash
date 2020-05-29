@@ -10,10 +10,8 @@
 echo "Welcome. Beginning build."
 
 firstline=$(head -n 1 source/changelog.md)
-echo $firstline
 
 read -a splitfirstline <<< $firstline
-echo $splitfirstline
 
 version=${splitfirstline[1]}
 echo "You are building version number:" $version
