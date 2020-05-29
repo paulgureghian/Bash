@@ -48,7 +48,7 @@ else
 fi
 
 # List the files. #
-cd build/
+cd build/ || exit
 cd ..
 
 echo "Build version $version contains:"
