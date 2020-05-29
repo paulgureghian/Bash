@@ -1,2 +1,3 @@
 disable=SC2162
 disable=SC2128
+disable=SC2103
