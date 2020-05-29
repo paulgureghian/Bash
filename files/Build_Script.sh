@@ -53,3 +53,5 @@ cd ..
 
 echo "Build version $version contains:"
 ls
+
+# End of script. #
