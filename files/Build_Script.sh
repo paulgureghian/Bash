@@ -22,7 +22,7 @@ echo "You are building version number:" $version
 echo 'Do you want to continue? (enter "1" for yes, "0" for no)'
 read versioncontinue
 
-if [ $versioncontinue -eq 1]
+if [ $versioncontinue -eq 1 ]
 
 then
   echo "OK"
