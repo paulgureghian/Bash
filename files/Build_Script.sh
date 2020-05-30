@@ -29,6 +29,11 @@ then
     echo $filename
   done    
 
+else 
+  echo "Please comeback when you are ready"
+
+fi
+
 if [ "$filename" == "source/secretinfo.md" ]
 
 then 
@@ -39,11 +44,6 @@ else
   cp $filename build/.  
 
 fi    
-
-else 
-  echo "Please comeback when you are ready"
-
-fi
 
 # List the files. #
 cd build/ || exit
