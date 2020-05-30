@@ -20,6 +20,7 @@ echo "You are building version number:" $version
 echo 'Do you want to continue? (enter "1" for yes, "0" for no)'
 read versioncontinue
 
+# Check for 'yes' or 'no'. #
 if [ $versioncontinue -eq 1 ]
 
 then
@@ -34,6 +35,7 @@ else
 
 fi
 
+# Check for a specific file. #
 if [ "$filename" == "source/secretinfo.md" ]
 
 then 
